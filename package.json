@@ -1,0 +1,40 @@
+{
+    "name": "lackey-mongoose-ref-validator",
+    "version": "0.0.1",
+    "description": "Adds some validation of mongoose references",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/getlackey/mongoose-ref-validator.git"
+    },
+    "author": "Enigma Marketing <admin@enigma-marketing.co.uk> (http://www.enigma-marketing.co.uk)",
+    "licenses": [{
+        "type": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }],
+    "bugs": {
+        "url": "https://github.com/getlackey/mongoose-ref-validator/issues"
+    },
+    "homepage": "https://github.com/getlackey/mongoose-ref-validator#readme",
+    "dependencies": {
+        "mongoose": "^4.0.6",
+        "q": "^1.4.1"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-config-dir": "^0.3.2",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-jslint": "^1.1.12",
+        "grunt-mocha-istanbul": "^2.4.0",
+        "istanbul": "^0.3.16",
+        "mocha": "^2.1.0"
+    },
+    "keywords": [
+        "mongoose",
+        "foreign key",
+        "referential integrity"
+    ]
+}
