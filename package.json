@@ -1,6 +1,6 @@
 {
     "name": "lackey-mongoose-ref-validator",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Adds some validation of mongoose references",
     "main": "lib/index.js",
     "scripts": {
